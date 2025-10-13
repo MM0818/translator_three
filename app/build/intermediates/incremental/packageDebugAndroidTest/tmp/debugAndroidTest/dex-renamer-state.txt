@@ -1,7 +1,7 @@
-#Fri Sep 27 17:11:05 CST 2024
-base.0=D\:\\AndroidStudio\\translator_three\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
-base.1=D\:\\AndroidStudio\\translator_three\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.2=D\:\\AndroidStudio\\translator_three\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\5\\classes.dex
+#Mon Oct 13 17:11:57 CST 2025
+base.0=D\:\\AndroidStudio\\AS_projects\\translator_three\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\AndroidStudio\\AS_projects\\translator_three\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=D\:\\AndroidStudio\\AS_projects\\translator_three\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\5\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=5/classes.dex

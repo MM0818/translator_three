@@ -40,7 +40,7 @@ import java.util.ArrayList
 
 @SuppressLint("RestrictedApi")
 class MainActivity : ComponentActivity() {
-    ///百度翻译
+    ///百度翻译,ComponentActivity   AppCompatActivity
     private lateinit var baiduTranslateService: BaiduTranslateService
     private lateinit var tvTranslateResult: TextView
 
@@ -56,7 +56,6 @@ class MainActivity : ComponentActivity() {
         // 请求录音权限
         requestAudioPermission()
 
-        // 将“12345678”替换成申请的APPID，申请地址：http://www.xfyun.cn
         // 不能在“=”与appid之间添加任何空字符或者转义符
         SpeechUtility.createUtility(this, SpeechConstant.APPID + "=1d295360")
 
@@ -87,9 +86,9 @@ class MainActivity : ComponentActivity() {
         }
 
         //百度翻译
-        // 初始化Retrofit配置
+        // 初始化Retrofit配置，通过简单的接口来处理网络请求
         val retrofitBaidu = Retrofit.Builder()
-            .baseUrl("https://fanyi-api.baidu.com/api/trans/vip/")
+            .baseUrl("https://fanyi-api.baidu.com/api/trans/vip/")  //百度翻译的api
             .addConverterFactory(GsonConverterFactory.create())  //添加Gson 转换器
             .build()
 
@@ -97,6 +96,7 @@ class MainActivity : ComponentActivity() {
         //translate()
     }
 
+    //检查应用是否具有录音权限，如果没有则请求用户授权；如果已经具有录音权限，则会调用语音识别初始化函数。
     private fun requestAudioPermission() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.RECORD_AUDIO), REQUEST_RECORD_AUDIO_PERMISSION)
@@ -107,6 +107,7 @@ class MainActivity : ComponentActivity() {
     }
 
     // 初始化对象时，通过此回调接口，获取初始化状态。
+    //initListener为一个实现了InitListener接口的匿名对象
     private val initListener = InitListener { code ->
         Log.d(TAG, "SpeechRecognizer initListener() code = $code")
         if (code != ErrorCode.SUCCESS) {
@@ -116,6 +117,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    //设置语音识别的各种参数，并开始监听用户的语音输入。
     private fun initVoiceRecognize() {
             // 获取系统默认语言
             val locale = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
