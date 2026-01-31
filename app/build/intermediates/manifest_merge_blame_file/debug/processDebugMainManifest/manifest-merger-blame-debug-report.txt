@@ -1,0 +1,248 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.translator_three"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10    <!-- 添加录音权限 -->
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 连接网络权限，用于执行云端语音能力 -->
+11-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:5:5-71
+11-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+12-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 读取网络信息状态 -->
+13-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:5:5-71
+13-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取当前wifi状态 -->
+14-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 允许程序改变网络连接状态 -->
+15-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:9:5-76
+15-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 读取手机信息权限 -->
+16-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 读取联系人权限，上传联系人需要用到此权限 -->
+17-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:11:5-75
+17-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- 外存储写权限，构建语法需要用到此权限 -->
+18-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:12:5-72
+18-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:12:22-69
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 外存储读权限，构建语法需要用到此权限 -->
+19-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:14:5-80
+20-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 新增：前台服务权限 -->
+21-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:15:5-77
+21-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:15:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" /> <!-- 新增：specialUse 类型前台服务的专属权限（Android 14+ 必需） -->
+22-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:16:5-89
+22-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:16:22-86
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:17:5-78
+23-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:17:22-75
+24
+25    <permission
+25-->[androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.translator_three.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.translator_three.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:19:5-71:19
+32        android:allowBackup="true"
+32-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:20:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:21:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:22:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:23:9-43
+39        android:label="@string/app_name"
+39-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:24:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:25:9-54
+41        android:supportsRtl="true"
+41-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:26:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.翻译器" >
+43-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:27:9-41
+44        <activity
+44-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:29:9-31:40
+45            android:name="com.example.translator_three.LoginActivity"
+45-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:30:13-42
+46            android:exported="false" />
+46-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:31:13-37
+47        <activity
+47-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:32:9-34:40
+48            android:name="com.example.translator_three.TextTActivity"
+48-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:33:13-42
+49            android:exported="false" />
+49-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:34:13-37
+50        <activity
+50-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:35:9-37:40
+51            android:name="com.example.translator_three.VoiceTActivity"
+51-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:36:13-43
+52            android:exported="false" />
+52-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:37:13-37
+53        <activity
+53-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:38:9-53:20
+54            android:name="com.example.translator_three.RegistActivity"
+54-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:39:13-43
+55            android:allowBackup="true"
+55-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:40:13-39
+56            android:exported="true"
+56-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:41:13-36
+57            android:icon="@mipmap/img_1"
+57-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:42:13-41
+58            android:label="@string/app_name"
+58-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:43:13-45
+59            android:roundIcon="@mipmap/img_1"
+59-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:44:13-46
+60            android:supportsRtl="true"
+60-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:45:13-39
+61            android:theme="@style/Theme.翻译器" >
+61-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:46:13-45
+62            <intent-filter>
+62-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:48:13-52:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:49:17-69
+63-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:49:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:51:17-77
+65-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:51:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!-- android:name="com.example.translator_three.accessibility.TranslationAccessibilityService" -->
+70        <service
+70-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:56:9-70:19
+71            android:name="com.example.translator_three.accessibility.TranslationAccessibilityService"
+71-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:58:13-74
+72            android:exported="true"
+72-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:60:13-36
+73            android:foregroundServiceType="specialUse"
+73-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:61:13-55
+74            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+74-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:59:13-79
+75            <intent-filter>
+75-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:63:13-65:29
+76                <action android:name="android.accessibilityservice.AccessibilityService" />
+76-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:64:17-92
+76-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:64:25-89
+77            </intent-filter>
+78            <!-- 引用上面创建的配置文件 -->
+79            <meta-data
+79-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:67:13-69:72
+80                android:name="android.accessibilityservice"
+80-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:68:17-60
+81                android:resource="@xml/accessibility_service_config" />
+81-->D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:69:17-69
+82        </service>
+83
+84        <activity
+84-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:23:9-25:39
+85            android:name="androidx.compose.ui.tooling.PreviewActivity"
+85-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:24:13-71
+86            android:exported="true" />
+86-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:25:13-36
+87        <activity
+87-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a46cb92fa36a586bf56715fd19f0ea5a\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:23:9-25:39
+88            android:name="androidx.activity.ComponentActivity"
+88-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a46cb92fa36a586bf56715fd19f0ea5a\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:24:13-63
+89            android:exported="true" />
+89-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a46cb92fa36a586bf56715fd19f0ea5a\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:25:13-36
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.translator_three.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\dc535927e9a3e395cdbd73cff7c595fb\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+103                android:value="androidx.startup" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+104        </provider>
+105
+106        <service
+106-->[androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+107            android:name="androidx.room.MultiInstanceInvalidationService"
+107-->[androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+108            android:directBootAware="true"
+108-->[androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+109            android:exported="false" />
+109-->[androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

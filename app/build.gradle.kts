@@ -1,29 +1,29 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("com.android.application")  //应用程序模块插件
+    id("org.jetbrains.kotlin.android")   //使用kotlin开发必须要用的插件
 }
 
 android {
     namespace = "com.example.translator_three"
-    compileSdk = 34  //至少为34，不然有些依赖库不兼容
+    compileSdk = 34  //至少为34，不然有些依赖库不兼容  //项目的编译版本
 
     defaultConfig {
-        applicationId = "com.example.translator_three"
-        minSdk = 24
-        targetSdk = 34  //这个也改成34
-        versionCode = 1
-        versionName = "1.0"
+        applicationId = "com.example.translator_three"  //每个应用的唯一标识符
+        minSdk = 24  //最小安卓兼容版本
+        targetSdk = 34  //这个也改成34  //已经在该目标版本上测试过了，系统会给该app最新的功能和特性
+        versionCode = 1  //版本号
+        versionName = "1.0"  //版本名字
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"  //做测试
         vectorDrawables {
             useSupportLibrary = true
         }
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
+    buildTypes {  //安装文件的配置，debug闭包可以不写
+        release {  //release闭包，正式安装文件配置
+            isMinifyEnabled = false  //是否混淆项目代码
+            proguardFiles(   //指定混淆规则文件
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
@@ -65,7 +65,7 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.9.0")  //远程依赖
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.0")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
@@ -92,6 +92,7 @@ dependencies {
     //百度翻译：Retrofit和Gson转换器的依赖
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.google.code.gson:gson:2.8.9")
 
     // Room 核心依赖（版本号可根据 Android Studio 提示更新）
     val room_version = "2.6.1"

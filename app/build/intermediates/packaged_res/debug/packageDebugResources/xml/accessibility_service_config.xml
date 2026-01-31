@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:accessibilityEventTypes="typeViewTextSelectionChanged"
+
+    android:accessibilityFlags="flagDefault|flagRetrieveInteractiveWindows"
+
+    android:accessibilityFeedbackType="feedbackGeneric"
+
+    android:canRetrieveWindowContent="true"
+
+    android:canRequestTouchExplorationMode="true"
+
+    android:packageNames="*"
+
+    android:description="@string/accessibility_desc"
+
+    android:notificationTimeout="100"
+    />

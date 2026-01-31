@@ -81,7 +81,7 @@ class LoginActivity : AppCompatActivity() {
 
                 if (matchedUser != null) {
                     Toast.makeText(this@LoginActivity, "登录成功！", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this@LoginActivity, MainActivity2::class.java)
+                    val intent = Intent(this@LoginActivity, TextTActivity::class.java)
                     intent.putExtra("username", matchedUser.username)
                     intent.putExtra("phone", matchedUser.phone)
                     startActivity(intent)

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.translator_three.app-mergeDebugResources-68:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\manman\\.gradle\\wrapper\\dists\\gradle-8.7-bin\\af3un6e4ivqgjcdo5lfa5efog\\gradle-8.7\\caches\\transforms-4\\a8a0ef7ab5e47edee54cd02e865d6200\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

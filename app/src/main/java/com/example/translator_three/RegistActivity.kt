@@ -7,6 +7,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.translator_three.model.User
 
 class RegistActivity : AppCompatActivity() {
     private var db: AppDatabase? = null

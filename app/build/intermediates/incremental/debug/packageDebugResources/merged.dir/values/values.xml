@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>中文 -> 英文</item>
+        <item>英文 -> 中文</item>
+        <item>中文 -> 日语</item>
+        <item>日语 -> 中文</item>
+        <item>中文 -> 韩文</item>
+        <item>韩文 -> 中文</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="accessibility_desc">提供划词翻译功能，支持长按选中文本后显示翻译结果。</string>
+    <string name="accessibility_description">全局划词翻译服务：长按选中文本即可显示翻译结果，支持多语言互译。</string>
+    <string name="app_name">翻译器</string>
+    <style name="Theme.翻译器" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.翻译器.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.翻译器.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.translator_three.app-mergeDebugResources-68:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\manman\\.gradle\\wrapper\\dists\\gradle-8.7-bin\\af3un6e4ivqgjcdo5lfa5efog\\gradle-8.7\\caches\\transforms-4\\341c3e48a21f4f7f09a6474579c5d6c6\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

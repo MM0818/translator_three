@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [androidx.databinding:databinding-adapters:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a1404d22792fe02cc2b785d6f8d07687\transformed\databinding-adapters-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\b7b0635a3089dacbdc250759fead4ad4\transformed\databinding-ktx-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\c5b30320e4e6d831896ce7656a2c0f9c\transformed\databinding-runtime-8.6.0\AndroidManifest.xml:2:1-7:12
@@ -133,9 +133,21 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:15:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:16:5-89
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:16:22-86
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:17:22-75
 application
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:16:5-51:19
-INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:16:5-51:19
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:19:5-71:19
+INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:19:5-71:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a46cb92fa36a586bf56715fd19f0ea5a\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:22:5-26:19
@@ -163,71 +175,93 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\manman\.gradle\wra
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:21:9-41
-	android:fullBackupContent
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:19:9-54
-	android:roundIcon
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:22:9-54
-	tools:targetApi
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:25:9-29
-	android:icon
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:20:9-43
-	android:allowBackup
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:17:9-35
-	android:theme
 		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:24:9-41
+	android:fullBackupContent
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:22:9-54
+	android:roundIcon
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:25:9-54
+	tools:targetApi
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:28:9-29
+	android:icon
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:27:9-41
 	android:dataExtractionRules
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:18:9-65
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:21:9-65
 activity#com.example.translator_three.LoginActivity
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:27:13-42
-activity#com.example.translator_three.MainActivity2
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:29:9-31:39
-	android:exported
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
 		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:30:13-42
-activity#com.example.translator_three.MainActivity
+activity#com.example.translator_three.TextTActivity
 ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:33:13-41
-activity#com.example.translator_three.RegistActivity
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:35:9-50:20
-	android:supportsRtl
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:42:13-39
-	android:label
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:40:13-45
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:33:13-42
+activity#com.example.translator_three.VoiceTActivity
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:38:13-36
-	tools:ignore
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:44:13-52
-	android:roundIcon
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:41:13-46
-	android:icon
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:39:13-41
-	android:allowBackup
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:37:13-39
-	android:theme
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
 		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:36:13-43
+activity#com.example.translator_three.RegistActivity
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:38:9-53:20
+	android:supportsRtl
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:45:13-39
+	android:label
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:43:13-45
+	android:exported
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:41:13-36
+	tools:ignore
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:47:13-52
+	android:roundIcon
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:44:13-46
+	android:icon
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:42:13-41
+	android:allowBackup
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:40:13-39
+	android:theme
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:39:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:48:17-77
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:51:17-77
 	android:name
-		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:51:27-74
+service#com.example.translator_three.accessibility.TranslationAccessibilityService
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:56:9-70:19
+	android:exported
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:60:13-36
+	android:permission
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:59:13-79
+	android:foregroundServiceType
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:61:13-55
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:58:13-74
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:63:13-65:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:64:17-92
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:64:25-89
+meta-data#android.accessibilityservice
+ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:67:13-69:72
+	android:resource
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:68:17-60
 uses-sdk
 INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml
