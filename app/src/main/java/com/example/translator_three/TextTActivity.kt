@@ -165,7 +165,10 @@ class TextTActivity : AppCompatActivity() {
 
         iv_copy_tx.setOnClickListener {// 复制文本
             val result = tv_result.text.toString()
+            //1、获取剪贴板管理器，参数表示剪贴板服务的常量，返回值是ClipboardManager类的实例
             val myClipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager  //通过该方法获取系统剪切板服务
+            //2、参数：剪贴板数据的标签+要复制的文本内容，即创建ClipData对象
+            //3、通过管理器的方法将内容设置到剪贴板
             myClipboard.setPrimaryClip(ClipData.newPlainText("text", result))  //将创建的ClipData对象设置为剪切板的主要内容
             showMsg("已复制")
         }
@@ -187,7 +190,7 @@ class TextTActivity : AppCompatActivity() {
             return
         }
 
-        val selectedText = spLanguage.selectedItem?.toString() ?: "中文 -> 英文"
+        val selectedText = spLanguage.selectedItem?.toString() ?: "中文 -> 英文"  //用户没手动选的话默认中翻译英
         val (fromLang, toLang) = when (selectedText) {
             "中文 -> 英文" -> Pair("zh", "en")
             "英文 -> 中文" -> Pair("en", "zh")
