@@ -26,6 +26,7 @@ import androidx.core.app.NotificationCompat;
 import com.example.translator_three.R;
 import com.example.translator_three.repository.TranslationRepository;
 
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
@@ -212,12 +213,15 @@ public class TranslationAccessibilityService extends AccessibilityService {
                     return;
                 }
 
-                // Future 机制：异步执行翻译请求，主线程可以继续处理其他任务
-                Future<String> future = translationRepo.translate(text);
+//                // Future 机制：异步执行翻译请求，主线程可以继续处理其他任务  ，04年的过时了
+//                Future<String> future = translationRepo.translate(text);
+
+                //调用Kotlin提供的Java兼容方法（返回CompletableFuture）!!!!!!!!!!!!!!!!!!!！！！！！！！！！================================================
+                CompletableFuture<String> future=translationRepo.translateForJava(text);
 
                 String result = future.get(10, TimeUnit.SECONDS); // 等待指定时间s，超时则抛出异常
 
-                Log.d(TAG, "百度API返回结果: " + (result != null ? result : "null"));
+                Log.d(TAG, "百度API返回结果(含缓存): " + (result != null ? result : "null"));
 
                 //检查翻译结果是否有效，非空且非字符串
                 if (result != null && !result.isEmpty()) {

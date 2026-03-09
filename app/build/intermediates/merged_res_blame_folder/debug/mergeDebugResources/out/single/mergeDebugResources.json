@@ -1,130 +1,130 @@
 [
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_ssfy.png.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/ssfy.png"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_register.png.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/register.png"
+        "merged": "com.example.translator_three.app-debug-71:/layout_popup_translation.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/layout/popup_translation.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/layout_activity_voicet.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/layout/activity_voicet.xml"
+        "merged": "com.example.translator_three.app-debug-71:/xml_backup_rules.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_register.png.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/register.png"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xhdpi_icon_copy.png.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xhdpi/icon_copy.png"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xhdpi_icon_delete.png.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xhdpi/icon_delete.png"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_ssfy.png.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/ssfy.png"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.translator_three.app-debug-71:/layout_activity_login.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/layout/activity_login.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_stroke_black_radus.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/stroke_black_radus.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/xml_accessibility_service_config.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/xml/accessibility_service_config.xml"
+        "merged": "com.example.translator_three.app-debug-71:/layout_activity_voicet.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/layout/activity_voicet.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_stroke_black_radus.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/stroke_black_radus.xml"
+        "merged": "com.example.translator_three.app-debug-71:/layout_activity_regist.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/layout/activity_regist.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_stroke_gray.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/stroke_gray.xml"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_cursor_style.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/cursor_style.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/layout_activity_login.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/layout/activity_login.xml"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_stroke_gray.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/stroke_gray.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/xml_backup_rules.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/xml/backup_rules.xml"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/layout_activity_regist.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/layout/activity_regist.xml"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/xml/data_extraction_rules.xml"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_loginbg.png.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/loginbg.png"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_cursor_style.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/cursor_style.xml"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.translator_three.app-debug-71:/layout_activity_textt.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/layout/activity_textt.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/layout_popup_translation.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/layout/popup_translation.xml"
+        "merged": "com.example.translator_three.app-debug-71:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_popup_bg.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/popup_bg.xml"
+        "merged": "com.example.translator_three.app-debug-71:/xml_accessibility_service_config.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/xml/accessibility_service_config.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-hdpi_img_1.png.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-hdpi/img_1.png"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.translator_three.app-debug-71:/drawable_popup_bg.xml.flat",
+        "source": "com.example.translator_three.app-main-73:/drawable/popup_bg.xml"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/layout_activity_textt.xml.flat",
-        "source": "com.example.translator_three.app-main-72:/layout/activity_textt.xml"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xhdpi_icon_delete.png.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xhdpi/icon_delete.png"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.translator_three.app-main-72:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-xhdpi_icon_copy.png.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-xhdpi/icon_copy.png"
     },
     {
-        "merged": "com.example.translator_three.app-debug-70:/drawable_loginbg.png.flat",
-        "source": "com.example.translator_three.app-main-72:/drawable/loginbg.png"
+        "merged": "com.example.translator_three.app-debug-71:/mipmap-hdpi_img_1.png.flat",
+        "source": "com.example.translator_three.app-main-73:/mipmap-hdpi/img_1.png"
     }
 ]

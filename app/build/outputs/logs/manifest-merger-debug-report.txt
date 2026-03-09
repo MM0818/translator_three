@@ -7,6 +7,9 @@ INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\Android
 MERGED from [androidx.databinding:databinding-adapters:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a1404d22792fe02cc2b785d6f8d07687\transformed\databinding-adapters-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\b7b0635a3089dacbdc250759fead4ad4\transformed\databinding-ktx-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\c5b30320e4e6d831896ce7656a2c0f9c\transformed\databinding-runtime-8.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\599b3bad84cfed049a4d76d85b135cfb\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a814ec13d1a174a4efcf2f048f10a376\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\fd31ad25ea1dbb8818ff45cf505fb9f6\transformed\material3-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\085bfff80fd99be36eddc4731d085a35\transformed\material-ripple-1.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-icons-core:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\6c0534efd5e691b470ecaf0d70228674\transformed\material-icons-core-1.4.0\AndroidManifest.xml:17:1-22:12
@@ -70,8 +73,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\manman\.gradl
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\ad24d397d7af73805db7cedec36c2e9c\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\28a3567d3121e111361ab4a8921e4592\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\03810ce4d180ef179ad408228615e4d3\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\599b3bad84cfed049a4d76d85b135cfb\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\942dfa2c04b9d8ce3ba081810ddd69b0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\67973db1031dd7e831c6fa5d05dca63d\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\2505f79e4fce21d93e661f25f4ff82d7\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
@@ -148,6 +149,8 @@ ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidMan
 application
 ADDED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:19:5-71:19
 INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml:19:5-71:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a46cb92fa36a586bf56715fd19f0ea5a\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:22:5-26:19
@@ -162,8 +165,6 @@ MERGED from [androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gr
 MERGED from [androidx.core:core:1.13.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\90c382490034e7f9680e3b4b7a85cd92\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0c82d0e190550707fc2b6bba8e4fd5f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0c82d0e190550707fc2b6bba8e4fd5f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
@@ -272,6 +273,12 @@ MERGED from [androidx.databinding:databinding-ktx:8.6.0] C:\Users\manman\.gradle
 MERGED from [androidx.databinding:databinding-ktx:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\b7b0635a3089dacbdc250759fead4ad4\transformed\databinding-ktx-8.6.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-runtime:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\c5b30320e4e6d831896ce7656a2c0f9c\transformed\databinding-runtime-8.6.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-runtime:8.6.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\c5b30320e4e6d831896ce7656a2c0f9c\transformed\databinding-runtime-8.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\599b3bad84cfed049a4d76d85b135cfb\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\599b3bad84cfed049a4d76d85b135cfb\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a814ec13d1a174a4efcf2f048f10a376\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\a814ec13d1a174a4efcf2f048f10a376\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\fd31ad25ea1dbb8818ff45cf505fb9f6\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\fd31ad25ea1dbb8818ff45cf505fb9f6\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\085bfff80fd99be36eddc4731d085a35\transformed\material-ripple-1.4.0\AndroidManifest.xml:20:5-44
@@ -398,10 +405,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\m
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\28a3567d3121e111361ab4a8921e4592\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\03810ce4d180ef179ad408228615e4d3\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\03810ce4d180ef179ad408228615e4d3\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\599b3bad84cfed049a4d76d85b135cfb\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-rxjava3:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\599b3bad84cfed049a4d76d85b135cfb\transformed\room-rxjava3-2.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\942dfa2c04b9d8ce3ba081810ddd69b0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\942dfa2c04b9d8ce3ba081810ddd69b0\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\67973db1031dd7e831c6fa5d05dca63d\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
@@ -436,6 +439,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\manman\.gradle\wrapper\dists\g
 		INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from D:\AndroidStudio\AS_projects\translator_three\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\65ec4fef22daa5e8aec0fc132cf38ab1\transformed\ui-tooling-1.4.0\AndroidManifest.xml:23:9-25:39
 	android:exported
@@ -496,16 +509,6 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\76a37f90109af1b72a412a1ce406323f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-	android:name
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\0cca07b6c34dee46b54318d0483663ae\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\manman\.gradle\wrapper\dists\gradle-8.7-bin\af3un6e4ivqgjcdo5lfa5efog\gradle-8.7\caches\transforms-4\5cc44cd8144d71818634e3f125884069\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value

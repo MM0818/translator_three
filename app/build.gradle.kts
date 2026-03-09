@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")  //应用程序模块插件
     id("org.jetbrains.kotlin.android")   //使用kotlin开发必须要用的插件
+    id("kotlin-kapt")  //Room注解处理器需要的kapt插件
 }
 
 android {
@@ -95,8 +96,14 @@ dependencies {
     implementation ("com.google.code.gson:gson:2.8.9")
 
     // Room 核心依赖（版本号可根据 Android Studio 提示更新）
-    val room_version = "2.6.1"
-    implementation("androidx.room:room-runtime:$room_version")
-    annotationProcessor("androidx.room:room-compiler:$room_version")
-    implementation("androidx.room:room-rxjava3:$room_version")
+    implementation("androidx.room:room-runtime:2.6.1")
+    //annotationProcessor("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-rxjava3:2.6.1")
+
+    kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
+
+    // 2. 新增：协程依赖（适配 Kotlin 1.8.10 + JDK 17）
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
