@@ -26,6 +26,7 @@ import androidx.core.app.NotificationCompat;
 import com.example.translator_three.R;
 import com.example.translator_three.repository.TranslationRepository;
 
+import java.util.HashMap;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
@@ -321,4 +322,12 @@ public class TranslationAccessibilityService extends AccessibilityService {
     //（5）服务中断
     @Override
     public void onInterrupt() { Log.d(TAG, "服务被中断"); }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        if(translationRepo!=null){
+            translationRepo.cancelAllCoroutines();   //如果关闭了无障碍服务，页面销毁，那就取消所有未完成的翻译协程
+        }
+    }
 }

@@ -5,8 +5,11 @@ import android.util.Log
 import com.example.translator_three.api.BaiduTranslateService
 import com.example.translator_three.model.TranslationResponse
 import com.example.translator_three.utils.TranslationCacheManager
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.Call
@@ -26,6 +29,10 @@ class TranslationRepository (context: Context){
     private val MAX_RETRY_COUNT = 3
     private val APP_ID = "20240826002132755"  //百度创建的应用翻译API的appid
     private val SECRET_KEY="uUnQQAsgQKUFPPZL3HZH"  //百度翻译API的密钥
+
+    //定义协程作用域对象，管理协程生命周期
+    //自定义CoroutineScope（带 IO 调度器 + Job 生命周期控制），并用自定义Scope启动协程
+    private val coroutineScope = CoroutineScope(Dispatchers.IO + Job())
 
     init {
         Log.d("TranslationRepo","开始初始化翻译仓库")
@@ -48,7 +55,7 @@ class TranslationRepository (context: Context){
     }
 
     //核心翻译（协程版）
-    suspend fun translate(text: String,fromLang:String,toLang:String):String?= withContext(Dispatchers.IO){
+    suspend fun translate(text: String,fromLang:String,toLang:String):String? = withContext(Dispatchers.IO){
         Log.d("TranslationRepo","开始翻译：$text 从 $fromLang 到 $toLang")
         //1、优先查询缓存
         val cachedResult=cacheManager.getTranslatedCache(fromLang,toLang,text)
@@ -139,15 +146,33 @@ class TranslationRepository (context: Context){
     fun translateForJava(text: String):CompletableFuture<String?>{
         val future=CompletableFuture<String?>()
 
-        //启动协程执行翻译
-        GlobalScope.launch(Dispatchers.IO){
+//        //启动协程执行翻译
+//        GlobalScope.launch(Dispatchers.IO){
+//            try {
+//                val result=translate(text)  //调用原因挂起函数
+//                future.complete(result)  //翻译成功，返回结果
+//            }catch (e:Exception){
+//                future.completeExceptionally(e)  //翻译失败，返回异常
+//            }
+//        }
+
+        //GlobalScope：生命周期与应用进程一致，易导致内存泄漏或协程无法取消
+        //替换方案：CoroutineScope，受控于调用者的生命周期，，更安全，可在生命周期结束时取消
+        //自定义CoroutineScope（带IO调度器+Job），并用自定义Scope启动协程
+        coroutineScope.launch {
             try {
-                val result=translate(text)  //调用原因挂起函数
-                future.complete(result)  //翻译成功，返回结果
+                val result = translate(text)
+                future.complete(result)
             }catch (e:Exception){
-                future.completeExceptionally(e)  //翻译失败，返回异常
+                future.completeExceptionally(e)
             }
         }
         return future
+    }
+
+    //协程结束后取消Scope，避免内存泄漏
+    //单独写一个函数供外部销毁时调用（如无障碍服务onDestroy时）
+    fun cancelAllCoroutines(){
+        coroutineScope.cancel()
     }
 }

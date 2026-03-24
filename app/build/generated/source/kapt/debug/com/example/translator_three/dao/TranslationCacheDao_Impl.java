@@ -92,7 +92,8 @@ public final class TranslationCacheDao_Impl implements TranslationCacheDao {
   }
 
   @Override
-  public Object insertCache(final TranslationCache cache, final Continuation<? super Unit> arg1) {
+  public Object insertCache(final TranslationCache cache,
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
@@ -106,11 +107,12 @@ public final class TranslationCacheDao_Impl implements TranslationCacheDao {
           __db.endTransaction();
         }
       }
-    }, arg1);
+    }, continuation);
   }
 
   @Override
-  public Object deleteExpiredCache(final long expireTime, final Continuation<? super Unit> arg1) {
+  public Object deleteExpiredCache(final long expireTime,
+      final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
@@ -131,11 +133,11 @@ public final class TranslationCacheDao_Impl implements TranslationCacheDao {
           __preparedStmtOfDeleteExpiredCache.release(_stmt);
         }
       }
-    }, arg1);
+    }, continuation);
   }
 
   @Override
-  public Object clearAllCache(final Continuation<? super Unit> arg0) {
+  public Object clearAllCache(final Continuation<? super Unit> continuation) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
@@ -154,12 +156,12 @@ public final class TranslationCacheDao_Impl implements TranslationCacheDao {
           __preparedStmtOfClearAllCache.release(_stmt);
         }
       }
-    }, arg0);
+    }, continuation);
   }
 
   @Override
   public Object getCache(final String sourceLang, final String targetLang, final String sourceText,
-      final Continuation<? super TranslationCache> arg3) {
+      final Continuation<? super TranslationCache> continuation) {
     final String _sql = "\n"
             + "        SELECT * FROM translation_cache \n"
             + "        WHERE sourceLang = ? \n"
@@ -239,7 +241,7 @@ public final class TranslationCacheDao_Impl implements TranslationCacheDao {
           _statement.release();
         }
       }
-    }, arg3);
+    }, continuation);
   }
 
   @NonNull

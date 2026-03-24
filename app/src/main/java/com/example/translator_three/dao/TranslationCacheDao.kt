@@ -6,6 +6,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.translator_three.model.TranslationCache
 
+//Room组件之一，数据访问对象 (DAO)，为您的应用提供在数据库中查询、更新、插入和删除数据的方法。
 @Dao
 interface TranslationCacheDao {
     //冲突时替换，避免重复

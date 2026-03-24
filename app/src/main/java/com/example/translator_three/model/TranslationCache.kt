@@ -4,6 +4,7 @@ import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
+//Room组件之一，数据实体，用于表示应用的数据库中的表。
 @Entity(
     tableName = "translation_cache",
     indices = [Index(value = ["sourceLang","targetLang","sourceText"], unique = true)]
