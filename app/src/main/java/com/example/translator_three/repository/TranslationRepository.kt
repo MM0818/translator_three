@@ -37,11 +37,12 @@ class TranslationRepository (context: Context){
     init {
         Log.d("TranslationRepo","开始初始化翻译仓库")
 
-        translateService=Retrofit.Builder()
+        translateService=Retrofit.Builder()   //构造器创建实例
             .baseUrl("https://fanyi-api.baidu.com/api/trans/vip/")  //百度翻译的api
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(BaiduTranslateService::class.java)
+            .create(BaiduTranslateService::class.java)  //创建动态代理对象，也就是我们定义的API接口
+            //动态代理内部会帮我们：1. 解析注解 @GET、@Path 2. 构建 OkHttp 请求   3. 用 OkHttp 发请求  4. 解析响应，转成 User 对象
         Log.d("TranslationRepo","翻译仓库初始化完成")
     }
 
@@ -75,14 +76,19 @@ class TranslationRepository (context: Context){
                 val sign=generateSign(cleanText,salt)
 
                 //同步调用API（因为当前函数块已在IO线程，无需再异步。相对主线程这里就是用了异步请求哈）
-                val call:Call<TranslationResponse> = translateService.translate(
+                //Call 代表一次准备好的 HTTP 请求，可以 execute() 执行，或 cancel() 取消。
+                val call:Call<TranslationResponse> = translateService.translate(   //创建请求对象（还没发送请求），组装请求
                     cleanText,fromLang,toLang,APP_ID,salt,sign
                 )
-                val response:Response<TranslationResponse> = call.execute()
+                val response:Response<TranslationResponse> = call.execute()   //真正执行同步网络请求，等待结果返回（决定什么时候发，现在、待会、取消）
 
-                if(response.isSuccessful&&response.body()!=null){
-                    val body=response.body()!!  //断言一定不为空
-                    if(body.error_code==null && body.trans_result!=null && body.trans_result.isNotEmpty()){
+                if(response.isSuccessful&&response.body()!=null){  //Http成功且body有数据
+                    val body=response.body()!!  //，取body，断言一定不为空（因为编译器不知道你判断过）
+                    //如果不用断言： ❌ 编译报错！Type is TranslationResponse?
+                    // 原因：body() 是个方法，每次调用可能返回不同值
+                    // 编译器认为"你现在判断了，但下一行调用可能又变 null"
+
+                    if(body.error_code==null && body.trans_result!=null && body.trans_result.isNotEmpty()){  //业务成功，API没报错
                         val result=body.trans_result[0].dst
                         Log.d("TranslationRepo","API翻译成功：$result")
 
