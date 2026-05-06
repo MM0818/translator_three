@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.translator_three.app-mergeDebugResources-69:/values-ja/values-ja.xml",
+            "outputFile": "com.example.translator_three.app-mergeDebugResources-71:/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\manman\\.gradle\\wrapper\\dists\\gradle-8.7-bin\\af3un6e4ivqgjcdo5lfa5efog\\gradle-8.7\\caches\\transforms-4\\fd31ad25ea1dbb8818ff45cf505fb9f6\\transformed\\material3-1.0.0\\res\\values-ja\\values-ja.xml",

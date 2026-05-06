@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.translator_three.app-mergeDebugResources-72:/layout/activity_voicet.xml",
+        "source": "com.example.translator_three.app-main-75:/layout/activity_voicet.xml"
+    },
+    {
+        "merged": "com.example.translator_three.app-mergeDebugResources-72:/layout/popup_translation.xml",
+        "source": "com.example.translator_three.app-main-75:/layout/popup_translation.xml"
+    },
+    {
+        "merged": "com.example.translator_three.app-mergeDebugResources-72:/layout/activity_textt.xml",
+        "source": "com.example.translator_three.app-main-75:/layout/activity_textt.xml"
+    },
+    {
+        "merged": "com.example.translator_three.app-mergeDebugResources-72:/layout/activity_login.xml",
+        "source": "com.example.translator_three.app-main-75:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.translator_three.app-mergeDebugResources-72:/layout/activity_regist.xml",
+        "source": "com.example.translator_three.app-main-75:/layout/activity_regist.xml"
+    }
+]

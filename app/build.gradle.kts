@@ -30,6 +30,14 @@ android {
             )
         }
     }
+
+    // 重构：启用 DataBinding & ViewBinding
+    buildFeatures {
+        compose = true
+        dataBinding = true
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -106,4 +114,12 @@ dependencies {
     // 2. 新增：协程依赖（适配 Kotlin 1.8.10 + JDK 17）
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+
+    // ViewModel + LiveData（Jetpack核心）
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+
+    //和flow有关依赖
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
 }

@@ -1,8 +1,16 @@
+        
+    <!-- 在这里加一句声明 -->
+    
+                 
+                            
+                                                                     
+           
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VoiceTActivity">
+    tools:context=".VoiceTActivity" android:tag="layout/activity_voicet_0">
 
     <LinearLayout
         android:orientation="vertical"
@@ -103,3 +111,5 @@
     </LinearLayout>
 
 </RelativeLayout>
+
+         
